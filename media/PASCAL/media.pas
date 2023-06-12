@@ -1,0 +1,29 @@
+                                                                                    program mediaPascal;
+                                                                                    uses crt;
+                                                                                    var nota_trab,aval_sem,exame,media:real;
+                                                                                    begin
+                                                                                        writeln('Digite trabalho');
+                                                                                        readln(nota_trab);
+                                                                                        writeln('nota semestral');
+                                                                                        readln(aval_sem);
+                                                                                        writeln('nota semestral');
+                                                                                        readln(exame);
+                                                                                        media:=(nota_trab * 2 + aval_sem * 3 + exame * 5) / 10;
+                                                                                        writeln('a media e ', media:0:2);
+                                                                                        if(media >= 8) and (media <=10) then
+                                                                                                writeln('obteve A')
+                                                                                         else if (media >= 7) and (media < 8) then
+                                                                                               writeln('obteve B')
+                                                                                         else if (media >= 6) and (media < 7) then
+                                                                                               writeln('obteve C')
+                                                                                         else if (media >= 5) and (media < 6) then
+                                                                                               writeln('obteve D')
+                                                                                         else if (media >= 0) and (media < 5) then
+                                                                                               writeln('obteve E')
+                                                                                         else
+                                                                                         writeln('NÆo foi possivel realizar o calculo');
+                                                                                        readln;
+                                                                                        end.
+
+
+
