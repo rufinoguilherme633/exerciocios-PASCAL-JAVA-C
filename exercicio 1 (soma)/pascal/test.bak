@@ -1,0 +1,10 @@
+                         program soa;
+                         uses crt;
+                         var n1,n2,n3,n4,soma:integer;
+                         begin
+                         writeln('digite as notas');
+                         readln(n1,n2,n3,n4);
+                         soma:=n1+n2+n3+n4;
+                         writeln('a soma ‚ ,', soma);
+                         readln;
+                         end.
