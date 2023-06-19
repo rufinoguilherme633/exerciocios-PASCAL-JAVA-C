@@ -20,6 +20,8 @@ public class NovoSalarioBonificacaoEscola {
             }
 
             System.out.println("Novo salário: " + novo_salario);
+            System.out.println("auxilio: " + auxilio);
+            System.out.println("bonificacao: " + bonificacao);
         } else {
             auxilio = 100;
             novo_salario = salario + auxilio;
